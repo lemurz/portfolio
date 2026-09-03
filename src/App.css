@@ -47,6 +47,12 @@ a:hover{
   align-items:center;
   gap:30px
 }
+
+.hero{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
   
 .hero h1{
   margin:0 0 4px;
@@ -63,8 +69,8 @@ a:hover{
 }
 
 .profile-photo{
-  width:108px;
-  height:108px;
+  width: 150px;
+  height:150px;
   object-fit:cover;
   object-position:center top;
   border-radius:50%;
