@@ -6,9 +6,6 @@ export default function Navbar() {
       <a href="https://github.com/lemurz" target="_blank" rel="noreferrer">
         GitHub
       </a>
-      <a href="public/Mashrur_Faiyaz.pdf" target="_blank">
-        CV
-      </a>
     </nav>
   );
 }
