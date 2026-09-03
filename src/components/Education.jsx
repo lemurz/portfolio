@@ -1,1 +1,18 @@
-export default function Education() { return <section className="section" id="education"><h2>Education</h2><article className="education-item"><div className="date">2023–Present</div><div><h3>Islamic University of Technology</h3><p>B.Sc. in Software Engineering, Department of Computer Science &amp; Engineering</p><p>CGPA: 3.77 / 4.00</p></div></article></section> }
+export default function Education() {
+  return (
+    <section className="section" id="education">
+      <h2>Education</h2>
+      <article className="education-item">
+        <div className="date">2023–Present</div>
+        <div>
+          <h3>Islamic University of Technology</h3>
+          <p>
+            B.Sc. in Software Engineering, Department of Computer Science &amp;
+            Engineering
+          </p>
+          <p>CGPA: 3.77 / 4.00</p>
+        </div>
+      </article>
+    </section>
+  );
+}
