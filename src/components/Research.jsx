@@ -9,8 +9,8 @@ export default function Research() {
     <section className="section" id="research">
       <h2>Research Interests</h2>
       <ul className="interest-list">
-        {interests.map((x) => (
-          <li key={x}>{x}</li>
+        {interests.map((interest) => (
+          <li key={interest}>{interest}</li>
         ))}
       </ul>
     </section>

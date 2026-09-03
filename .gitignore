@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+/public/Mashrur_Faiyaz.pdf
+/public/Photo.jpeg

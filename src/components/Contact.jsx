@@ -1,12 +1,20 @@
 const links = [
-  ["Email", "mashrur.faiyaz28@gmail.com", "mailto:mashrur.faiyaz28@gmail.com"],
-  ["GitHub", "github.com/lemurz", "https://github.com/lemurz"],
+  [
+    "Email", 
+    "mashrur.faiyaz28@gmail.com", 
+    "mailto:mashrur.faiyaz28@gmail.com"],
+  [
+    "GitHub", 
+    "github.com/lemurz", 
+    "https://github.com/lemurz"
+  ],
   [
     "LinkedIn",
     "Mashrur Faiyaz",
     "https://www.linkedin.com/in/mashrur-faiyaz-605149308/",
   ],
 ];
+
 export default function Contact() {
   return (
     <section className="section" id="contact">

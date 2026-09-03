@@ -11,26 +11,26 @@ const projects = [
 export default function Projects() {
   return (
     <section className="section" id="projects">
-      <h2>Selected Research</h2>
+      <h2>Research Projects</h2>
       <ul className="project-list">
-        {projects.map((p) => (
-          <li className="project" key={p.title}>
-            <div className="project-year">{p.year}</div>
+        {projects.map((project) => (
+          <li className="project" key={project.title}>
+            <div className="project-year">{project.year}</div>
             <div>
-              <h3>{p.title}</h3>
-              <p>{p.description}</p>
+              <h3>{project.title}</h3>
+              <p>{project.description}</p>
               <div className="project-actions">
                 <a
                   className="project-link"
-                  href={p.github}
+                  href={project.github}
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Code
+                  Github
                 </a>
                 <ul className="tag-list">
-                  {p.technologies.map((x) => (
-                    <li key={x}>{x}</li>
+                  {project.technologies.map((tech) => (
+                    <li key={tech}>{tech}</li>
                   ))}
                 </ul>
               </div>
