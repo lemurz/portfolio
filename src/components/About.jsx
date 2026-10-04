@@ -11,7 +11,7 @@ export default function About() {
           Islamic University of Technology
         </a>
         . My research focuses on federated learning, network intrusion
-        detection, and privacy-preserving intelligent systems. I am currently
+        detection, and adversarial NLP. I am currently
         investigating temporal reputation mechanisms for Byzantine-resilient
         federated intrusion detection.
       </p>

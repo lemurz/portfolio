@@ -1,8 +1,10 @@
 const interests = [
   "Federated Learning",
-  "AI Security & Privacy",
-  "Network Intrusion Detection",
+  "Byzantine-robust Federated Learning",
+  "Network and IoT Intrusion Detection",
   "Natural Language Processing",
+  "Cybersecurity",
+  "Adversarial Robustness in NLP",
 ];
 export default function Research() {
   return (

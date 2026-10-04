@@ -1,12 +1,23 @@
 const projects = [
   {
-    title: "Temporal Client Reputation for Byzantine-Resilient FIDS",
+    title: "BackToTheFuture",
     year: "2026 · Ongoing",
     description:
       "Studying whether temporal client reputation can improve Byzantine robustness in federated intrusion detection while preserving fair participation for honest clients with highly non-IID data.",
     technologies: ["Python", "PyTorch", "CICIoT2023"],
     github: "https://github.com/lemurz/FIDS---Temporal-Reputation-Mechanism",
   },
+
+  {
+    title: "Adversarial Bengali NLP: Attack Paths, Defense Evidence, and Research Gaps",
+    year: "2026 · Draft",
+    description:
+      "Structured narrative review on adversarial robustness in Bengali/Bangla NLP. Covers orthographic and lexical attacks, transliteration, code-mixing, jailbreaks, and multimodal attack surfaces, and how much Bengali NLP has been explored in terms of these.",
+    technologies: [],
+    github: "https://github.com/lemurz/FIDS---Temporal-Reputation-Mechanism",
+  },
+
+
 ];
 export default function Projects() {
   return (

@@ -21,8 +21,8 @@ export default function Contact() {
       <h2>Contact</h2>
       <div className="contact-grid">
         <p>
-          I am open to research discussions, academic collaborations, and
-          opportunities in secure and distributed machine learning.
+          I am open to research discussions, academic collaborations and
+          opportunities in Natural Language Processing, Cybersecurity and Federated Learning.
         </p>
         <ul className="contact-links">
           {links.map(([label, value, href]) => (

@@ -13,6 +13,28 @@ export default function Education() {
           <p>CGPA: 3.77 / 4.00</p>
         </div>
       </article>
+
+      <article className="education-item">
+        <div className="date">2020–2022</div>
+        <div>
+          <h3>NotreDame College</h3>
+          <p>
+            Science
+          </p>
+          <p>GPA: 5.00 / 5.00</p>
+        </div>
+      </article>
+
+      <article className="education-item">
+        <div className="date">2012–2020</div>
+        <div>
+          <h3>St Joseph Higher Secondary School</h3>
+          <p>
+            Science
+          </p>
+          <p>GPA: 5.00 / 5.00</p>
+        </div>
+      </article>
     </section>
   );
 }

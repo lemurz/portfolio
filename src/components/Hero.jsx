@@ -5,7 +5,7 @@ export default function Hero() {
       <div>
         <h1>Mashrur Faiyaz</h1>
         <p className="role">
-          Backend Development · Federated Learning · AI Security
+          Backend Development · Federated Learning · AI Security · NLP
         </p>
       </div>
       <img className="profile-photo" src={profilePhoto} alt="Mashrur Faiyaz" />
